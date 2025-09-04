@@ -803,6 +803,19 @@ h6 {
     justify-content: center;
 }
 
+.video-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .video-content {
     width: 100%;
     padding: 20px;
@@ -2379,7 +2392,7 @@ article.ttm-blog-classic .ttm-blog-classic-content,
     left: 0;
     display: block;
     background: #fff;
-    background-image: url(../images/Loading\ Process.mp4);
+    background-image: url(../images/Loading\ Process.gif);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -4535,11 +4548,11 @@ form button:hover {
         height: 0vh !important;
         margin-bottom: 0 !important;
     }
-    
+
     .video-container {
         height: 100% !important;
     }
-    
+
     .video-container img {
         height: 80% !important;
         object-position: center center !important;
@@ -4552,34 +4565,39 @@ form button:hover {
         margin: 0 !important;
     }
 
+    .video-overlay2 {
+        height: 80%;
+    }
+
     .video-overlay {
         height: 80% !important;
         background: rgba(0, 0, 0, 0.6) !important;
     }
-    
+
     .video-content .container {
         padding: 0 10px !important;
     }
-    
+
     /* Adjust main content margins */
     .container2 {
         margin-top: -5% !important;
         padding: 10px 15px !important;
     }
-    
-    .sidebar-left, .service-content {
+
+    .sidebar-left,
+    .service-content {
         padding: 10px !important;
     }
-    
+
     .service-section {
         margin-top: 0 !important;
     }
-    
+
     .service-section h3 {
         margin-top: 0 !important;
         margin-bottom: 15px !important;
     }
-    
+
     .main-img {
         margin-top: 15px !important;
     }

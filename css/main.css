@@ -61,7 +61,7 @@
 ------------------------*/
 /* Main menu link colors */
 #site-header-menu .mega-menu-link,
-#site-header-menu .menu > li > a {
+#site-header-menu .menu>li>a {
     color: #ffffff !important;
     transition: color 0.3s ease !important;
 }
@@ -69,31 +69,32 @@
 /* Hover and focus states */
 #site-header-menu .mega-menu-link:hover,
 #site-header-menu .mega-menu-link:focus,
-#site-header-menu .menu > li:hover > a,
-#site-header-menu .menu > li > a:focus,
-#site-header-menu .mega-menu-item:hover > .mega-menu-link {
+#site-header-menu .menu>li:hover>a,
+#site-header-menu .menu>li>a:focus,
+#site-header-menu .mega-menu-item:hover>.mega-menu-link {
     color: #33b56b !important;
 }
 
 /* Active menu item */
-#site-header-menu .mega-menu-item.current-menu-item > .mega-menu-link,
-#site-header-menu .menu > li.current-menu-item > a {
+#site-header-menu .mega-menu-item.current-menu-item>.mega-menu-link,
+#site-header-menu .menu>li.current-menu-item>a {
     color: #33b56b !important;
 }
 
 /* Mobile menu styles */
 @media (max-width: 1199px) {
+
     #site-header-menu .mega-menu-link,
-    #site-header-menu .menu > li > a {
+    #site-header-menu .menu>li>a {
         color: #000 !important;
     }
-    
+
     #site-header-menu .mega-menu-link:hover,
     #site-header-menu .mega-menu-link:focus,
     #site-header-menu .mega-menu-link.active,
-    #site-header-menu .menu > li:hover > a,
-    #site-header-menu .menu > li > a:focus,
-    #site-header-menu .menu > li > a.active {
+    #site-header-menu .menu>li:hover>a,
+    #site-header-menu .menu>li>a:focus,
+    #site-header-menu .menu>li>a.active {
         color: #33b56b !important;
     }
 }
@@ -175,6 +176,7 @@
 
 /* Make services menu items black on mobile */
 @media (max-width: 991px) {
+
     /* Hide all list items in mobile menu */
     .mega-menu-item .mega-submenu li {
         display: none;
@@ -832,7 +834,7 @@ h6 {
     .video-background {
         position: relative;
         width: 100%;
-        height: 70vh;
+        height: 10vh;
         min-height: 500px;
         overflow: hidden;
     }
@@ -2346,8 +2348,7 @@ article.ttm-blog-classic .ttm-blog-classic-content,
 
 .wrap-form span.text-input input,
 .wrap-form span.text-input select,
-.wrap-form span.text-input textarea
-{
+.wrap-form span.text-input textarea {
     border: 1px solid rgba(0, 43, 92, 0.08);
 }
 
@@ -4526,4 +4527,59 @@ form button:hover {
     text-align: left;
     font-size: 48px;
     color: white;
+}
+
+@media (max-width: 767px) {
+    .video-background {
+        height: 0vh !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .video-container {
+        height: 100% !important;
+    }
+    
+    .video-container img {
+        height: 80% !important;
+        object-position: center center !important;
+    }
+
+    .service-main-text {
+        font-size: 2.2rem !important;
+        line-height: 1.2;
+        padding: 0 10px;
+        margin: 0 !important;
+    }
+
+    .video-overlay {
+        height: 80% !important;
+        background: rgba(0, 0, 0, 0.6) !important;
+    }
+    
+    .video-content .container {
+        padding: 0 10px !important;
+    }
+    
+    /* Adjust main content margins */
+    .container2 {
+        margin-top: -5% !important;
+        padding: 10px 15px !important;
+    }
+    
+    .sidebar-left, .service-content {
+        padding: 10px !important;
+    }
+    
+    .service-section {
+        margin-top: 0 !important;
+    }
+    
+    .service-section h3 {
+        margin-top: 0 !important;
+        margin-bottom: 15px !important;
+    }
+    
+    .main-img {
+        margin-top: 15px !important;
+    }
 }

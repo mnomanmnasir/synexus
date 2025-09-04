@@ -790,7 +790,7 @@ h6 {
     object-fit: cover;
 }
 
-.video-overlay {
+.video-overlay1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -2379,7 +2379,7 @@ article.ttm-blog-classic .ttm-blog-classic-content,
     left: 0;
     display: block;
     background: #fff;
-    background-image: url(../images/Trail\ loading\ \(1\).gif);
+    background-image: url(../images/Loading\ Process.mp4);
     background-repeat: no-repeat;
     background-position: center;
 }

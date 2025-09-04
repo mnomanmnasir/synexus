@@ -346,6 +346,7 @@
 .services-slider .featured-desc .ttm-btn {
     margin-top: auto;
     align-self: flex-start;
+    font-family: 'Poppins';
 }
 
 .services-slider .featured-icon-box {
@@ -550,7 +551,7 @@ iframe {
 }
 
 p {
-    margin: 14px 0 15px;
+    margin: 14px 0 5px;
 }
 
 *::-moz-selection {
@@ -2378,7 +2379,7 @@ article.ttm-blog-classic .ttm-blog-classic-content,
     left: 0;
     display: block;
     background: #fff;
-    background-image: url(../images/Loading\ Screen.gif);
+    background-image: url(../images/Trail\ loading\ \(1\).gif);
     background-repeat: no-repeat;
     background-position: center;
 }
